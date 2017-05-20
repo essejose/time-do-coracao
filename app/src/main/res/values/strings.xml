@@ -19,7 +19,7 @@
     <string name="cadastrar">Cadastrar</string>
 
     <string name="confirmacao_cadastro">
-        Olá, %1$s parabéns por torcer pelo %2$s , sua idade não condiz %3$s
+        Olá, %1$s parabéns por torcer pelo %2$s , sua idade e %3$s
     </string>
 
 </resources>

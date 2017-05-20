@@ -26,6 +26,14 @@
         <item name="colorControlHighlight">@color/accent</item>
     </style>
 
+
+    <style name="ConfirmacaoScreen" parent="AppTheme">
+
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
     <style name="label_time_s2">
 
         <item name="android:paddingBottom">@dimen/espacamento_campos</item>

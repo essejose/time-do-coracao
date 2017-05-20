@@ -14,7 +14,7 @@ public class SplashScreen extends AppCompatActivity {
     private final int SPLASH_DISPLAY_LENGTH = 4500;
     private TextView textViewTxt;
 
-    String[] nomes = new String[]{"jose","jose2","jose3"};
+    String[] nomes = new String[]{"jose", "jose2", "jose3"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,12 +22,8 @@ public class SplashScreen extends AppCompatActivity {
         setContentView(R.layout.activity_splash_screen);
 
 
-
-
         //Executando o método que iniciará nossa animação
         carregar();
-
-
 
 
     }
@@ -47,7 +43,7 @@ public class SplashScreen extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-            // Após o tempo definido irá executar a próxima tela
+                // Após o tempo definido irá executar a próxima tela
 
                 Intent intent = new Intent(SplashScreen.this,
                         MainActivity.class);

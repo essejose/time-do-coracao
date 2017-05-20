@@ -17,13 +17,13 @@ public class ConfirmacaoActivity extends AppCompatActivity {
 
         ConfirmacaoTxt = (TextView) findViewById(R.id.ConfirmacaoTxt);
 
-        if(getIntent() != null){
+        if (getIntent() != null) {
             String nome = getIntent().getStringExtra("NOME");
             String idade = getIntent().getStringExtra("IDADE");
             String time = getIntent().getStringExtra("TIME");
 
             ConfirmacaoTxt.setText(
-                    getString(R.string.confirmacao_cadastro,nome,time,idade)
+                    getString(R.string.confirmacao_cadastro, nome, time, idade)
             );
         }
 

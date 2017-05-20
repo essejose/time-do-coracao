@@ -15,16 +15,13 @@
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@+id/label_time"
         android:layout_above="@+id/label_rodape"
-        >
+        android:layout_below="@+id/label_time">
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-
-            >
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
             <android.support.design.widget.TextInputLayout
                 android:id="@+id/nameValue"
@@ -46,26 +43,25 @@
                 <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:inputType="number"
-                    android:hint="@string/hint_idade" />
+                    android:hint="@string/hint_idade"
+                    android:inputType="number" />
 
             </android.support.design.widget.TextInputLayout>
 
 
             <Spinner
-                style="@style/label_time_s2"
                 android:id="@+id/sptimes"
+                style="@style/label_time_s2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:entries="@array/times"></Spinner>
+                android:entries="@array/times" />
 
 
             <Button
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/cadastrar"
                 android:onClick="cadastrar"
-                />
+                android:text="@string/cadastrar" />
 
         </LinearLayout>
     </ScrollView>
