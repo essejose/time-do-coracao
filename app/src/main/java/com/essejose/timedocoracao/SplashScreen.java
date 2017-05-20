@@ -1,4 +1,4 @@
-package com.essejose.adivinhador;
+package com.essejose.timedocoracao;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -6,7 +6,6 @@ import android.os.Handler;
 import android.content.Intent;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
-import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -51,7 +50,7 @@ public class SplashScreen extends AppCompatActivity {
             // Após o tempo definido irá executar a próxima tela
 
                 Intent intent = new Intent(SplashScreen.this,
-                        Main2Activity.class);
+                        MainActivity.class);
                 intent.setFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
                 startActivity(intent);
                 SplashScreen.this.finish();

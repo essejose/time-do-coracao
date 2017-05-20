@@ -1,6 +1,5 @@
-package com.essejose.adivinhador;
+package com.essejose.timedocoracao;
 
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;

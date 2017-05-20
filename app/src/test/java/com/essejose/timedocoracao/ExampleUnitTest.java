@@ -1,4 +1,4 @@
-package com.essejose.adivinhador;
+package com.essejose.timedocoracao;
 
 import org.junit.Test;
 

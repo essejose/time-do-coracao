@@ -1,4 +1,4 @@
-package com.essejose.adivinhador;
+package com.essejose.timedocoracao;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

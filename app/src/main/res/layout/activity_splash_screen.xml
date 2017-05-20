@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:gravity="center"
-    tools:context="com.essejose.adivinhador.SplashScreen"
+    tools:context="com.essejose.timedocoracao.SplashScreen"
     android:background="@color/background_splash"
     android:weightSum="1">
 
