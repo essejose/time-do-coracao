@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.essejose.adivinhador.Main2Activity">
+
+    <TextView
+
+        android:id="@+id/label_time"
+        style="@style/label_time_s2"
+        android:layout_alignParentTop="true" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/label_time"
+        android:layout_above="@+id/label_rodape"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            >
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/nameValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/hint_nome" />
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/idadeValue"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:hint="@string/hint_idade" />
+
+            </android.support.design.widget.TextInputLayout>
+
+
+            <Spinner
+                style="@style/label_time_s2"
+                android:id="@+id/sptimes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/times"></Spinner>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/cadastrar"
+                android:onClick="cadastrar"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/label_rodape"
+        style="@style/label_desenvolvido_por"
+
+        />
+</RelativeLayout>

@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/primary_light</item>
+    </style>
+
+
+    <style name="FullScreen" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+
+    <style name="AppTimeS2" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+
+        <item name="colorControlNormal">#c5c5c5</item>
+        <item name="colorControlActivated">@color/accent</item>
+        <item name="colorControlHighlight">@color/accent</item>
+    </style>
+
+    <style name="label_time_s2">
+
+        <item name="android:paddingBottom">@dimen/espacamento_campos</item>
+        <item name="android:paddingTop">@dimen/espacamento_campos </item>
+
+
+        <item name="android:layout_width">@dimen/titulo_s2_largura</item>
+        <item name="android:layout_height">@dimen/titulo_s2_altura</item>
+        <item name="android:text">@string/titulo_s2</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/titulo_s2_color</item>
+        <item name="android:textSize">@dimen/titulo_s2_fonteSize</item>
+
+    </style>
+
+
+    <style name="label_desenvolvido_por" parent="label_time_s2">
+        <item name="android:text">@string/desenvolvido_por</item>
+        <item name="android:textSize">@dimen/desenvolvido_por_tamanho</item>
+        <item name="android:layout_alignParentBottom">true</item>
+    </style>
+</resources>

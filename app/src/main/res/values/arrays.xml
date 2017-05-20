@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="times">
+        <item>@string/selecione_time</item>
+        <item>@string/palmeiras</item>
+        <item>@string/barcelona</item>
+        <item>@string/real_madri</item>
+
+    </string-array>
+</resources>

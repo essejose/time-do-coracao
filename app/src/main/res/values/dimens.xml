@@ -1,0 +1,20 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="padding_default">16dp</dimen>
+    <dimen name="espacamento_campos">20dp</dimen>
+    <dimen name="tamanho_chute">70sp</dimen>
+    <dimen name="imgLargura">292dp</dimen>
+    <dimen name="imgAlgura">150dp</dimen>
+
+
+    <dimen name="titulo_s2_largura">@dimen/match_parent</dimen>
+    <dimen name="titulo_s2_altura">@dimen/wrap_content</dimen>
+    <dimen name="titulo_s2_fonteSize">20sp</dimen>
+
+    <dimen name="desenvolvido_por_tamanho">10sp</dimen>
+
+    <item name="match_parent" type="dimen">-1</item>
+    <item name="wrap_content" type="dimen">-2</item>
+</resources>
