@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:padding="@dimen/padding_default"
     android:orientation="vertical"
-    tools:context="com.essejose.adivinhador.MainActivity">
+    tools:context="com.essejose.adivinhador.Main2Activity">
 
     <TextView
         android:id="@+id/ConfirmacaoTxt"
