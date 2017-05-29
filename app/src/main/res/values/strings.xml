@@ -1,21 +1,21 @@
 <resources>
-    <string name="app_name">Time do coração</string>
-    <string name="imagem_do_adivinho">Imagem do Adivinho</string>
-    <string name="informe">Informe</string>
-    <string name="chutar">Chutar</string>
-    <string name="ltimo_chute">Último Chute</string>
-    <string name="adivinhe_um_numero_de_0_a_10">Adivinhe um numero de 0 a 10</string>
-    <string name="acertos">Acertos</string>
+    <string name="app_name">Heart Time</string>
+    <string name="imagem_do_adivinho">About Me</string>
+    <string name="informe">Report</string>
+    <string name="chutar">Kick</string>
+    <string name="ltimo_chute">Las kick</string>
+    <string name="adivinhe_um_numero_de_0_a_10">Guess a number from 0 to 10</string>
+    <string name="acertos">Points</string>
 
-    <string name="titulo_s2">Time do S2</string>
-    <string name="desenvolvido_por">Desenvolvido por jose</string>
-    <string name="hint_nome">Nome</string>
-    <string name="hint_idade">Idade</string>
+    <string name="titulo_s2">Heart Time</string>
+    <string name="desenvolvido_por">Developed by jose</string>
+    <string name="hint_nome">Name</string>
+    <string name="hint_idade">Age</string>
 
-    <string name="real_madri">real madri</string>
-    <string name="barcelona">barcelona</string>
-    <string name="palmeiras">palmeiras</string>
-    <string name="selecione_time">Selecione o time</string>
+    <string name="real_madri">Real Madri</string>
+    <string name="barcelona">Barcelona</string>
+    <string name="palmeiras">Palmeiras sem mundial</string>
+    <string name="selecione_time">Select team</string>
     <string name="cadastrar">Cadastrar</string>
 
     <string name="confirmacao_cadastro">

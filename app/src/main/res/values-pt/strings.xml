@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Time do coração</string>
+    <string name="acertos">Acertos</string>
+    <string name="adivinhe_um_numero_de_0_a_10">Adivinhe um número de 0 a 10</string>
+    <string name="barcelona">Barcelona</string>
+    <string name="cadastrar">Cadastrar</string>
+    <string name="chutar">Chutar</string>
+    <string name="confirmacao_cadastro">Olá, %1$s parabéns por torcer pelo %2$s , sua idade e %3$s</string>
+    <string name="desenvolvido_por">Desenvolvido por jose</string>
+    <string name="hint_idade">Idade</string>
+    <string name="hint_nome">Nome</string>
+    <string name="imagem_do_adivinho">Imagem do Adivinho</string>
+    <string name="informe">Informe</string>
+    <string name="ltimo_chute">Último Chute</string>
+    <string name="palmeiras">Palmeiras sem mundial</string>
+    <string name="real_madri">Real Madri</string>
+    <string name="selecione_time">Selecione o time</string>
+    <string name="titulo_s2">Time do S2</string>
+</resources>
